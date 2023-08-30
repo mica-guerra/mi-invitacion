@@ -1,0 +1,199 @@
+
+.container {
+    position: relative; /* Permite posicionar los elementos internos */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para la imagen */
+.image {
+    max-width:35%; /* Ajusta el tamaño de la imagen */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    
+}
+
+/* Estilos para el texto encima de la imagen */
+@font-face {
+    font-family:letrabonis;
+    src: url(BeautyDemo.ttf);
+}
+.text-overlay{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 106, 13);
+    font-family:letrabonis;
+    font-size: 28px;
+    line-height: 0;
+  }
+
+  @font-face {
+    font-family:iniciales;
+    src: url(Tangerine_Regular.ttf);
+}
+
+.text-overlay1{
+    position: absolute;
+    top:32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(238, 125, 19);
+    font-family:iniciales;
+    font-size: 60px;
+    line-height: 0;
+  }
+
+  .text-overlay2{
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 106, 13);
+    font-family:iniciales;
+    font-size: 28px;
+    line-height: 0;
+  }
+  .vertical-line {
+    position: absolute;
+    top:55%;
+    left:45%;
+    border: 1px solid rgb(238, 125, 19);
+    height:10%;
+    z-index: 1;
+}
+.vertical-line2 {
+    position: absolute;
+    top:55%;
+    left:54%;
+    border: 1px solid rgb(238, 125, 19);
+    height:10%;
+    z-index: 1;
+}
+.text-overlay3{
+    position: absolute;
+    top:63%;
+    left:41%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 106, 13);
+    font-family:iniciales;
+    font-size:24px;
+    line-height:0;
+  }
+
+  .text-overlay4{
+    position: absolute;
+    top:62%;
+    left:59%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 106, 13);
+    font-family:iniciales;
+    font-size:30px;
+    line-height: 0;
+  }
+  .text-overlay5{
+    position: absolute;
+    top:60%;
+    left:49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 106, 13);
+    font-family:iniciales;
+    font-size:24px;
+    line-height: 0;
+  }
+  .overlay-button {
+    position: absolute;
+    top:67%;
+    left:49.6%;
+    background-color: rgb(231, 126, 65);
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Asegura que el botón esté encima de la imagen */
+}
+.overlay-button2 {
+    position: absolute;
+    top:87%;
+    left:46%;
+    background-color: rgb(231, 126, 65);
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Asegura que el botón esté encima de la imagen */
+}
+.text-overlay7{
+    position: absolute;
+    top:64%;
+    left:49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 106, 13);
+    font-family:iniciales;
+    font-size:28px;
+    line-height: 0;
+  }
+
+  .text-overlay8{
+    position: absolute;
+    top:77%;
+    left:49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(236, 106, 13);
+    font-family:iniciales;
+    font-size:22px;
+    line-height: 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .text-overlay{
+      font-size: 12px;
+
+    }
+    .text-overlay1{
+      font-size: 12px;
+    }
+    .text-overlay3{
+      font-size: 12px;
+    }
+    .text-overlay4{
+      font-size: 12px;
+    }
+    .text-overlay5{
+      font-size: 12px;
+    }
+    .text-overlay7{
+      font-size: 12px;
+    }
+    .text-overlay2{
+      font-size: 12px;
+    }
+    .text-overlay8{
+      font-size: 12px;
+    }
+    .vertical-line{
+      font-size: 12px;
+    }
+    .vertical-line2{
+      font-size: 12px;
+    }
+    .overlay-button{
+      font-size: 12px;
+      top:67%;
+      left:49.6%;
+    }
+    .overlay-button2{
+      font-size: 12px;
+      top:87%;
+      left:46%;
+    }
+    .image{
+      padding: 10px;
+      font-size: 12px;
+    }
+}
+
+
